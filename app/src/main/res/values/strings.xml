@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Briscola Score Keeper</string>
+    <string name="team_a_score">team_a_score</string>
+    <string name="woman_2_points">Woman +2 Points</string>
+    <string name="team_a">Team A</string>
+    <string name="king_4_points">King +4 Points</string>
+    <string name="ace_11_points">Ace +11 Points</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="reset">Reset</string>
+    <string name="three_10_points">Three +10 Points</string>
+    <string name="team_b">Team B</string>
+    <string name="horse_3_points">Horse +3 Points</string>
+    <string name="team_b_score">team_b_score</string>
+</resources>

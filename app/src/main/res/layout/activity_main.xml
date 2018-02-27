@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/external_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/column_team_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_a_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/team_a" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/zero" />
+
+                <Button
+                    android:id="@+id/add_two_for_team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addTwoForTeamA"
+                    android:text="@string/woman_2_points" />
+
+                <Button
+                    android:id="@+id/add_three_for_team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addThreeForTeamA"
+                    android:text="@string/horse_3_points" />
+
+                <Button
+                    android:id="@+id/add_four_for_team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addFourForTeamA"
+                    android:text="@string/king_4_points" />
+
+                <Button
+                    android:id="@+id/add_ten_for_team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addTenForTeamA"
+                    android:text="@string/three_10_points" />
+
+                <Button
+                    android:id="@+id/add_eleven_for_team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addElevenForTeamA"
+                    android:text="@string/ace_11_points" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vertical_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:id="@+id/column_team_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_b_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/team_b" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/zero" />
+
+                <Button
+                    android:id="@+id/add_two_for_team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addTwoForTeamB"
+                    android:text="@string/woman_2_points" />
+
+                <Button
+                    android:id="@+id/add_three_for_team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addThreeForTeamB"
+                    android:text="@string/horse_3_points" />
+
+                <Button
+                    android:id="@+id/add_four_for_team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addFourForTeamB"
+                    android:text="@string/king_4_points" />
+
+                <Button
+                    android:id="@+id/add_ten_for_team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addTenForTeamB"
+                    android:text="@string/three_10_points" />
+
+                <Button
+                    android:id="@+id/add_eleven_for_team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="addElevenForTeamB"
+                    android:text="@string/ace_11_points" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/external_linear_layout"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:onClick="reset"
+            android:text="@string/reset" />
+    </RelativeLayout>
+</ScrollView>

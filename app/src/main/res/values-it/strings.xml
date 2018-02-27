@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Segnapunti Briscola</string>
+    <string name="team_a_score">punteggio_squadra_a</string>
+    <string name="woman_2_points">Donna +2 punti</string>
+    <string name="team_a">Squadra A</string>
+    <string name="reset">Azzera</string>
+    <string name="team_b">Squadra B</string>
+    <string name="horse_3_points">Cavallo +3 punti</string>
+    <string name="team_b_score">punteggio_squadra_b</string>
+    <string name="three_10_points">tre +10 punti</string>
+    <string name="ace_11_points">Asso +11 punti</string>
+    <string name="king_4_points">Re + 4 punti</string>
+</resources>
