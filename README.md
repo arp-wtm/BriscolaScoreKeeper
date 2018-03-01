@@ -14,6 +14,28 @@ The remaining cards have no point value
 
 As you can see, the total value of cards in the deck adds up to 120 points.
 <br> Therefore, the player or team which scores 61 points or more wins the game.<br>
+# ADVICE: I'm not an expert devoleper so use this code carefully.
+
+### User interface:
+
+I choose this user interface: 
+- two columns with name, score e five buttons point for each team
+- a central reset bottom button.
+
+
+### Used views:
+- an external ScrollView implementing landscape mode and visualization for little screen device
+- inside that a RelativeLayout for positioning the columns layout and reset Button
+- an horizontal LinearLayout with two columns inside separated by a single line View 
+  - each column is a vertical LinearLayout with 2 TextView and 5 Button 
+
+
+
+### Testing:
+I tested compatibility with Nexus 5 5.0 1080x1920 xxhdpi
+
+Used content description on text and button views for screen readers and other accessibility tools
+
 
 # term of use
 Copyright (C) 2017 The Android Open Source Project<br>
